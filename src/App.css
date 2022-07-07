@@ -1,0 +1,33 @@
+.container{
+  max-width: 400px;
+  max-height: 450px;
+  margin: 0,auto;
+  background-color: #efefef;
+  box-shadow: 0,0,10, gray;
+  margin-top: 50px;
+  padding: 15px,50px;
+}
+.expense-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0,0,10, gray;
+
+}
+.transaction-form input{
+  width: 100%;
+  margin: 10px,0;
+  padding: 5px;
+}
+.tranaction-list{
+  margin: 0;
+  padding: 0;
+}
+.tranaction-list li{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0,0 10px gray;
+  padding: 10px,5px;
+  background-color: white;
+  margin: 5px,0;
+}
